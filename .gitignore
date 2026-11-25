@@ -1,0 +1,6 @@
+# Les installeurs se publient comme fichiers joints d'une release, jamais dans l'historique git
+*.exe
+*.zip
+*.sha256
+*.pck
+build/
