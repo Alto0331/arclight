@@ -31,8 +31,35 @@ Tout le monde doit avoir **la même version** du jeu.
 
 ## Commandes
 
-Clic gauche : katana · Clic droit : grappin · Q : revolver · F : parade · Shift : dash · Ctrl : glissade · Espace : saut · Tab : scores · Échap : pause.
-Tout se règle dans **Options > Commandes**.
+Clic gauche : katana · Clic droit : grappin · **A** (AZERTY) / **Q** (QWERTY) : revolver · F : parade · Shift : dash · Ctrl : glissade · Espace : saut · Tab : scores · **Virgule (maintenue) : carte entière** · Échap : pause.
+
+Tout se règle dans **Options > Commandes** : chaque touche se change d'un clic, et l'interrupteur **Disposition du clavier** remet le déplacement sur **ZQSD** (AZERTY) ou **WASD** (QWERTY).
+La mini-carte (en haut à gauche) se règle dans **Options > Affichage**.
+
+## Sons de mèmes (facultatif)
+
+Le jeu sait jouer des sons de mèmes selon ce que tu fais, pour le côté troll : un coup **raté**, ta **mort**, un **kill**.
+Ces sons ne sont **pas fournis** avec le jeu (ce sont des extraits protégés par des droits d'auteur) : chacun télécharge ceux qu'il veut.
+
+| Quand | Son | Où le télécharger |
+|---|---|---|
+| Coup raté | *bruh* | [myinstants.com/instant/bruh](https://www.myinstants.com/instant/bruh/) |
+| Coup raté | *mi bombo* | [orangefreesounds.com/mi-bombo-sound-effect](https://orangefreesounds.com/mi-bombo-sound-effect/) |
+| Tu meurs | *GET OUT* | [myinstants.com/fr/instant/get-out-meme-91882](https://www.myinstants.com/fr/instant/get-out-meme-91882/) |
+| Tu meurs | *Enrike !* (version 1) | [myinstants.com/fr/instant/enrice-47938](https://www.myinstants.com/fr/instant/enrice-47938/) |
+| Tu meurs | *Enrike !* (version 2) | [myinstants.com/fr/instant/eres-el-enrikque-10204](https://www.myinstants.com/fr/instant/eres-el-enrikque-10204/) |
+| Tu tues quelqu'un | *Gotcha bitch* (Dave Chappelle) | [soundinstants.com/sound/gotcha-bit-by-dave-chapelle](https://soundinstants.com/sound/gotcha-bit-by-dave-chapelle) |
+
+**Les ajouter au jeu :**
+
+1. Sur chaque page, télécharge le son (bouton de téléchargement, fichier `.mp3`).
+2. Dans le jeu : **Options > Audio > Mèmes > OUVRIR LE DOSSIER**. Un dossier s'ouvre.
+3. Glisse-y les fichiers téléchargés. **Pas besoin de les renommer** tant que le nom contient `bruh`, `bombo`, `get out`, `enrike` / `enrique` / `enrice` ou `gotcha`
+   (sinon, nomme-les `rate_….mp3`, `mort_….mp3` ou `kill_….mp3`). Formats : `.mp3`, `.ogg`, `.wav`.
+4. **Relance le jeu.** Le titre « Tes sons de mèmes (N chargés) » indique combien ont été trouvés.
+
+Plusieurs sons pour un même moment : le jeu en tire un au hasard (jamais le même deux fois de suite). Les sons sont de volume inégal :
+règle **Volume des mèmes** (ou coupe tout avec la case **Sons de mèmes**) dans **Options > Audio**.
 
 ## Un problème ?
 
